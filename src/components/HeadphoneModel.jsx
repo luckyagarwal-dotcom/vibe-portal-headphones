@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useGLTF } from "@react-three/drei";
 
 function Model() {
-  const model = useGLTF("/src/assets/Headphones.glb");
+  const model = useGLTF("/headphone.glb");
 
   return (
     <primitive
